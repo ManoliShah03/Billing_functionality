@@ -1,0 +1,40 @@
+*{
+    margin: 1%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: black;
+}
+
+.image img{
+    height: 560px;
+    width: 450px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
+
+.container{
+    display: flex;
+}
+
+
+.text2{
+    padding: 10px 0px;
+}
+
+.text{
+    padding: 40px 10px;
+}
+
+
+img{
+    border: 2px solid black;
+}
+
+.side_image{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px;
+    gap:20px;  
+}
+

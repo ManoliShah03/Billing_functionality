@@ -1,0 +1,44 @@
+body{
+    font-size:19px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 300px;
+    
+}
+
+.box1{
+    padding-top: 20px;
+  
+}
+
+.box1 label{
+    width: 220px;
+    display: inline-block;
+}
+
+.fieldset{
+    width: 80vh;
+    border: 3px solid black;
+    background-image: linear-gradient(to bottom right, grey, white) 
+}
+
+label{
+    font-weight: bold;
+}
+
+button{
+    padding: 0px 25px;
+    margin: 0px 248px;
+    font-size: 25px;
+}
+
+
+
+/* .box1 input{
+    display: inline-block;
+} */
+/* 
+box1label{
+width: 250px;
+display: inline-block;
+} */
+

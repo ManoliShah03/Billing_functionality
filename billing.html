@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="billing.css">
+    <!-- <script src="billing.js"></script> -->
+</head>
+
+<body>
+
+    <div class="box">
+        <form action="" method="post" name="myForm" id="form1">
+        <fieldset class="fieldset">
+
+            <div class="box1">
+                <label for="ShippingAd">First name</label>
+                <input id="ShippingAd" type="text">
+            </div>
+
+
+            <div class="box1">
+                <label for="ShippingAd1">Last name</label>
+                <input id="ShippingAd1" type="text">
+
+            </div>
+
+            <div class="box1">
+                <label for="ShippingAd2">Street_Address</label>
+                <input id="ShippingAd2" type="text">
+            </div>
+
+            <div class="box1">
+                <label for="ShippingAd6">City</label>
+                <input id="ShippingAd6" type="text">
+            </div>
+
+            <div class="box1">
+                <label for="ShippingAd9">Postal_code</label>
+                <input id="ShippingAd9" type="text">
+            </div>
+
+            <div class="box1">
+                <label for="ShippingAd12">State</label>
+                <input id="ShippingAd12" type="text">
+            </div>
+
+
+        </fieldset>
+       
+    </div>
+
+    <div class="box2">
+
+        <label for="myCheck">
+            <h3>Same as Shipping Address:<input type="checkbox" name="" id="myCheck" onclick="myFunction()">
+        </label>
+    </div>
+
+    <div class="box1">
+     
+        <fieldset class="fieldset">
+
+            <div class="box1">
+                <label for="BillingAd">First Name</label>
+                <input id="BillingAd" type="text">
+            </div>
+
+            <div class="box1">
+                <label for="BillingAd1">Last Name</label>
+                <input id="BillingAd1" type="text">
+            </div>
+
+            <div class="box1">
+                <label for="BillingAd2">Street_Address</label>
+                <input id="BillingAd2" type="text">
+            </div>
+
+
+
+            <div class="box1">
+                <label for="BillingAd6">City</label>
+                <input id="BillingAd6" type="text">
+            </div>
+            <div class="box1">
+                <label for="BillingAd9">Postal_code</label>
+                <input id="BillingAd9" type="text">
+            </div>
+            <div class="box1">
+                <label for="BillingAd12">State</label>
+                <input id="BillingAd12" type="text">
+            </div>
+
+
+
+
+        </fieldset>
+       
+    </div>
+
+    <div class="box1">
+    <button class="btn" id="validationBtn" type="btnSubmit" onclick="validateForm()">Place Order</button>
+</form>
+    </div>
+
+    <script src="billing.js"></script>
+    
+</body>
+
+</html>
