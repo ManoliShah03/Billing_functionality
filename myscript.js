@@ -13,7 +13,13 @@ function normalImg(x) {
 //for product to billing page
 
 function myFunction() {
+  var input = document.getElementById("quantity")
+  if(quantity.value<1){
+    window.alert("Cart could not be empty")
+  }
+  else{
   location.href = "billing.html";
+}
 }
 
 function quantityOfItemInc() {
