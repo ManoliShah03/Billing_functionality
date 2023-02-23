@@ -3,107 +3,88 @@
 
 <head>
     <link rel="stylesheet" href="billing.css">
-    <!-- <script src="billing.js"></script> -->
+    <script src="billing.js"></script>
 </head>
 
 <body>
-
     <div class="box">
-        <form action="" method="post" name="myForm" id="form1">
-        <fieldset class="fieldset">
 
-            <div class="box1">
-                <label for="ShippingAd">First name</label>
-                <input id="ShippingAd" type="text">
-            </div>
+        <div class="form">
+            <form action="" method="post" name="address" id="form1" onsubmit=" return validateForm()">
 
+                <fieldset class="fieldset">
 
-            <div class="box1">
-                <label for="ShippingAd1">Last name</label>
-                <input id="ShippingAd1" type="text">
+                    <div class="box1">
+                        <label for="fname">First Name</label>
+                        <input required type="text" id="fname" name="fname">
+                    </div>
 
-            </div>
+                    <div class="box1">
+                        <label for="lname">Last Name</label>
+                        <input required type="text" id="lname" name="lname">
+                    </div>
 
-            <div class="box1">
-                <label for="ShippingAd2">Street_Address</label>
-                <input id="ShippingAd2" type="text">
-            </div>
+                    <div class="box1">
+                        <label for="address">Street address</label>
+                        <input required type="text" id="street" name="address">
 
-            <div class="box1">
-                <label for="ShippingAd6">City</label>
-                <input id="ShippingAd6" type="text">
-            </div>
+                    </div>
+                    <div class="box1">
+                        <label for="postal">ZIP or Postal Code</label>
+                        <input required type="text" id="postal" name="postal">
+                    </div>
+                    <div class="box1">
+                        <label for="city">City</label>
+                        <input required type="text" id="city" name="city">
+                    </div>
+                    <div class="box1">
+                        <label for="country">Country or region</label>
+                        <input id="country" name="country" required>
+                </fieldset>
 
-            <div class="box1">
-                <label for="ShippingAd9">Postal_code</label>
-                <input id="ShippingAd9" type="text">
-            </div>
+                <input type="checkbox" id="check" name="check" onclick="copyAddress()">
+                <label for="check" class="check"> Same as Shipping Address</label>
 
-            <div class="box1">
-                <label for="ShippingAd12">State</label>
-                <input id="ShippingAd12" type="text">
-            </div>
+                <fieldset class="fieldset">
+                    <div class="box1">
+                        <label for="fbname">First Name</label>
+                        <input required type="text" id="fbname" name="fbname">
+                    </div>
 
+                    <div class="box1">
+                        <label for="lbname">Last Name</label>
+                        <input required type="text" id="lbname" name="lbname">
+                    </div>
+                    <div class="box1">
+                        <label for="baddress">Street address</label>
+                        <input type="text" id="bstreet" name="baddress" required>
 
-        </fieldset>
-       
-    </div>
+                    </div>
+                    <div class="box1">
+                        <label for="bpostal">ZIP or Postal Code</label>
+                        <input required type="text" id="bpostal" name="bpostal" enterkeyhint="next">
+                    </div>
+                    <div class="box1">
+                        <label for="bcity">City</label>
+                        <input required type="text" id="bcity" name="bcity">
+                    </div>
+                    <div class="box1">
+                        <label for="bcountry">Country or region</label>
+                        <input id="bcountry" name="bcountry" required>
+                    </div>
 
-    <div class="box2">
-
-        <label for="myCheck">
-            <h3>Same as Shipping Address:<input type="checkbox" name="" id="myCheck" onclick="myFunction()">
-        </label>
-    </div>
-
-    <div class="box1">
-     
-        <fieldset class="fieldset">
-
-            <div class="box1">
-                <label for="BillingAd">First Name</label>
-                <input id="BillingAd" type="text">
-            </div>
-
-            <div class="box1">
-                <label for="BillingAd1">Last Name</label>
-                <input id="BillingAd1" type="text">
-            </div>
-
-            <div class="box1">
-                <label for="BillingAd2">Street_Address</label>
-                <input id="BillingAd2" type="text">
-            </div>
-
-
-
-            <div class="box1">
-                <label for="BillingAd6">City</label>
-                <input id="BillingAd6" type="text">
-            </div>
-            <div class="box1">
-                <label for="BillingAd9">Postal_code</label>
-                <input id="BillingAd9" type="text">
-            </div>
-            <div class="box1">
-                <label for="BillingAd12">State</label>
-                <input id="BillingAd12" type="text">
-            </div>
+                </fieldset>
+                <div class="box1">
+                    <!-- <button class="btn" id="validationBtn" type="btnSubmit">Place Order<button> -->
+                    <input class="btn" type="submit" value="Place Your Order" name="Submit">
+                </div>
 
 
+            </form>
+        </div>
 
+        <script src="billing.js"></script>
 
-        </fieldset>
-       
-    </div>
-
-    <div class="box1">
-    <button class="btn" id="validationBtn" type="btnSubmit" onclick="validateForm()">Place Order</button>
-</form>
-    </div>
-
-    <script src="billing.js"></script>
-    
 </body>
 
 </html>

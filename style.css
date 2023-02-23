@@ -16,6 +16,7 @@ body{
     color: white;
     padding: 25px 60px;
     margin-bottom: 30px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 .cart-icon{
@@ -27,15 +28,6 @@ body{
     text-align: right;
     /* float: right; */
  }
-
-/* h2{
-    font-size: x-large;
-    padding: 15px 10px;
-} 
-
-
-*/
-
 
 
 p{
@@ -81,6 +73,7 @@ p{
 
 .item{
     border: solid 2px black;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     
 }
 
@@ -89,12 +82,6 @@ img{
     justify-content: center;
 } 
 
-/* .details{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    gap: 10px;
-} */
 
 .details{
     padding:  12px 77px;

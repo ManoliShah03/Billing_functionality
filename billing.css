@@ -11,34 +11,49 @@ body{
 }
 
 .box1 label{
-    width: 220px;
+    width: 250px;
     display: inline-block;
 }
 
+
 .fieldset{
-    width: 80vh;
+    width: 90vh;
     border: 3px solid black;
-    background-image: linear-gradient(to bottom right, grey, white) 
+    background-image: linear-gradient(to bottom right, grey, white) ;
+    margin: 23px 25px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 label{
     font-weight: bold;
 }
 
-button{
+.btn{
     padding: 0px 25px;
-    margin: 0px 248px;
+    margin: -7px 248px;
     font-size: 25px;
 }
 
 
+/* button{
+    padding: 0px 25px;
+    margin: 0px 248px;
+    font-size: 25px;
+} */
+#check{
+margin-left: 30px;
+margin-top: 10px;  
+}
 
-/* .box1 input{
-    display: inline-block;
-} */
-/* 
-box1label{
-width: 250px;
-display: inline-block;
-} */
+.check{
+margin-left: 5px; 
+margin-top: 10px;     
+}
+
+
+
+
+
+
+
 
